@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html,body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8em;
+    height: 100%;
+
+}
+
+.imagem1, .imagem2, .imagem3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.imagem1 {
+    background-image: url('../imagem/imagem1.jpg');
+    min-height: 100vh;
+}
+
+.imagem2 {
+    background-image: url('../imagem/imagem2.jpg');
+    min-height: 400px;
+}
+
+.imagem3 {
+    background-image: url('../imagem/imagem3.jpg');
+    min-height: 400px;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.border-escura, .border-clara{
+    color: white;
+    background-color: black;
+    padding: 19px;
+}
+.border-clara{
+    background-color: transparent;
+}
+.section {
+    text-align: center;
+    padding: 70px 80px;
+}
+.section-clara{
+    background-color:#f4f4f4;
+    color: rgb(102, 102, 102);
+}
